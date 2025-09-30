@@ -1,0 +1,98 @@
+
+/* === Reset básico === */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* === Tipografía general === */
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #060606;
+  color: #f4f7f8;
+  line-height: 1.6;
+  padding: 20px;
+}
+
+/* === Bloques de contenido === */
+.bloque {
+  margin: 40px 0;
+  padding: 20px;
+  background-color: #f1eaeaeb;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+/* === Texto personalizado === */
+.texto {
+  font-size: 1.2em;
+  font-weight: 500;
+  margin-bottom: 15px;
+  color: #f2efef;
+}
+
+/* === Imágenes uniformes === */
+.imagen {
+  width: 100%;
+  max-width: 500px;
+  height: 600px;
+  object-fit: cover;
+  border-radius: 5px;
+  display: block;
+  margin: 0 auto;
+}
+body {
+  background-color: #be8170;
+}
+.evento {
+  margin: 40px 0;
+  padding: 25px;
+  background-color: #edbe95; /* tono cálido tipo pergamino */
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(239, 236, 236, 0.932);
+}
+.texto {
+  font-size: 1.2em;
+  font-weight: 500;
+  color: #f9f7f7;
+  margin-bottom: 15px;
+  font-family: 'Poppins', cursive;
+  text-align: center;
+}
+body {
+  background-image: url('Imagenes/red.jpg'); /* Ajusta el nombre según tu imagen */
+  background-size: cover;       /* Para que cubra toda la pantalla */
+  background-repeat: no-repeat; /* Evita que se repita */
+  background-attachment: fixed; /* Para que no se mueva al hacer scroll */
+  background-position: center;  /* Centrado */
+}
+.evento {
+  background-image: url('Imagenes/corazon.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  padding: 25px;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  margin: 40px 0;
+}
+@media (max-width: 600px) {
+  .imagen {
+    height: 250px;
+    max-width: 100%;
+  }
+
+  .texto {
+    font-size: 16px;
+  }
+}
+
+
+
+
+
+
+
+
+
